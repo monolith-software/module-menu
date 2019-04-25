@@ -1,0 +1,6 @@
+services:
+    menumodule.form.type.item_tree:
+        class: Monolith\Module\Menu\Form\Tree\ItemTreeType
+        arguments: [ '@doctrine' ]
+        tags:
+            - { name: form.type, alias: monolith_module_menu_item_tree }

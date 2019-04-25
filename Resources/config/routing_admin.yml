@@ -1,0 +1,26 @@
+
+monolith_module.menu.admin:
+    path: /
+    defaults:
+        _controller: MenuModuleBundle:Admin:index
+
+monolith_module.menu.admin_menu:
+    path: /{id}
+    defaults:
+        _controller: MenuModuleBundle:Admin:menu
+    requirements:
+        menu_id: \d+
+
+monolith_module.menu.admin_menu_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MenuModuleBundle:Admin:menuEdit
+    requirements:
+        menu: \d+
+
+monolith_module.menu.admin_item:
+    path: /item/{id}
+    defaults:
+        _controller: MenuModuleBundle:Admin:item
+    requirements:
+        item_id: \d+

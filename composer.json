@@ -1,0 +1,16 @@
+{
+    "name": "monolith-software/module-menu",
+    "type": "monolith-cms-module",
+    "homepage": "http://monolith-cms.com",
+    "description": "Create and managment differents menus",
+    "keywords": ["menu"],
+    "version": "v0.2",
+    "time": "2017-11-30",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Monolith\\Module\\Menu\\": "" }
+    },
+    "require": {
+        "knplabs/knp-menu-bundle": "dev-master"
+    }
+}
