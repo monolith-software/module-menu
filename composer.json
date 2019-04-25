@@ -9,8 +9,5 @@
     "license": "MIT",
     "autoload": {
         "psr-4": { "Monolith\\Module\\Menu\\": "" }
-    },
-    "require": {
-        "knplabs/knp-menu-bundle": "dev-master"
     }
 }
